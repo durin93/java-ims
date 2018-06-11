@@ -1,13 +1,14 @@
 package codesquad.dto;
 
 
+
 import javax.validation.constraints.NotNull;
 
 import codesquad.domain.MileStone;
 
 public class MileStoneDto {
 
-	@NotNull
+	@NotNull 
 	private String startDate;
 
 	@NotNull

@@ -20,7 +20,6 @@ import support.test.HtmlFormDataBuilder;
 public class ApiAttachmentAcceptanceTest extends AcceptanceTest {
 
 	@Resource
-	private AttachmentRepository attachmentRepository;
 	
 	@Test
 	public void download() throws Exception {
